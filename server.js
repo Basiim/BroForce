@@ -2,7 +2,10 @@ const express = require('express');
 
 const app = express();
 const port = process.env.PORT || 3000;
+
 app.use("/css", express.static(__dirname + '/css'));
+app.use("/images", express.static(__dirname + '/images'));
+
 
 app.get('/', function (req, res) {
     console.log('Hello from server');
