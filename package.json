@@ -17,6 +17,10 @@
     "url": "https://github.com/ahmadabdullah247/BroForce/issues"
   },
   "homepage": "https://github.com/ahmadabdullah247/BroForce#readme",
+  "devDependencies":{
+    "node":"^8.14.0",
+    "npm":"^6.5.0"
+  },
   "dependencies": {
     "express": "^4.16.4"
   }
